@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	tools:context=".FragmentListMessenger" >
+	
+	<ListView
+		android:id="@+id/list_messenge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+		    
+		<LinearLayout
+			android:id="@+id/no_exist"
+		    android:visibility="gone"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="@android:color/transparent"
+			android:orientation="vertical" >
+	
+		<ImageView
+			android:contentDescription="@string/app_name"
+			android:id="@+id/imageView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:src="@drawable/no_exit" />
+	
+		<TextView
+			android:id="@+id/textView1"
+			android:textSize="@dimen/subhead2"
+			android:textColor="@color/primary"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/no_exist" />
+	
+		    </LinearLayout>
+		        
+	    <LinearLayout
+	        android:id="@+id/undobar"
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:layout_margin="20dp"
+	        android:alpha="100"
+	        android:background="#808080"
+	        android:dividerPadding="11dp"
+	        android:padding="4dp" >
+	
+	        <TextView
+	            android:id="@+id/undobar_message"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#fff" />
+	
+	        <Button
+	            android:id="@+id/undobar_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:onClick="onClick"
+	            android:background="#808080"
+	            android:drawableLeft="@drawable/ic_action_undo"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#fff" />
+	    </LinearLayout>
+
+</FrameLayout> 

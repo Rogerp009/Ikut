@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+        <item>Notificaciones</item>
+        <item>Mis notificaciones</item>               
+        <item>CONFIGURACIÓN</item>
+        <item>AYUDA</item>              
+    </string-array>
+       
+	<string-array name="Status">
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+    
+	<string-array name="StatusValues">
+        <item>activo</item>
+        <item>inactivo</item>
+     </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+    <dimen name="activity_vertical_margin_custom">10dp</dimen>
+    <!-- SplashScreen -->
+    <dimen name="splashscreen_width">300dp</dimen>
+    <dimen name="splashscreen_height">200dp</dimen>
+    
+    <!-- Custon Font Size -->
+    <dimen name="button">14sp</dimen>
+    <dimen name="caption">12dp</dimen>
+    <dimen name="body1">14sp</dimen><!-- Regular -->
+    <dimen name="body2">14sp</dimen><!-- Medium -->
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="subhead2">18sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display4">112sp</dimen>
+    
+    <!-- Login -->
+    <dimen name="img_height">120dp</dimen>
+    <dimen name="img_bottom">16dp</dimen>
+    <dimen name="text_bottom">16dp</dimen>
+    <dimen name="edit_botton">5dp</dimen>
+    <dimen name="edit_top">5dp</dimen>
+    <dimen name="btn_width">140dp</dimen>
+    <dimen name="layout_creating_account">30dp</dimen>
+    <dimen name="progress_bar_margin_bottom">8dp</dimen>
+    <dimen name="progress_bar_margin_top">16dp</dimen>
+    <dimen name="progress_bar_text_margin_bottom">16dp</dimen>
+    
+    <!-- Login Form Values Large -->
+    <dimen name="layout_width_large">400dp</dimen>
+    <dimen name="padding_large">16dp</dimen>    
+    
+    <!-- Register -->
+    <dimen name="layout_sign_in_button">35dp</dimen>
+    <dimen name="register_edit_botton">10dp</dimen>
+    <dimen name="register_edit_top">10dp</dimen>    
+    
+    <!-- Drawer -->
+    <dimen name="navigation_layout_width">260dp</dimen><!-- Espacio del Drawer -->    
+</resources>

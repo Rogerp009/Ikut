@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<!-- Custom -->
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>	     
+        
+    <!-- Login -->
+    <style name="btn_login">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:background">@drawable/btn_shadow</item>
+    </style>
+    
+    <!-- Label -->
+    <style name="sectionHeader" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:drawableBottom">@drawable/section_header</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/emphasis</item>
+        <item name="android:textSize">14sp</item>
+    </style>    
+
+    <!-- Fragment Send Messanger -->
+    <style name="edit_text_messenger">
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">@dimen/subhead2</item>
+        <item name="android:background">@android:color/transparent</item>        
+    </style>
+   
+  	<style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+	  	<item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+  	</style>
+
+  	<style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  	<item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+  	</style>
+
+  	<style name="ProgressBarAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      	<item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_light</item>
+      	<item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_light</item>
+  	</style>
+  	    
+</resources>

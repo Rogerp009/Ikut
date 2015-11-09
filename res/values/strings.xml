@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ikut</string>
+    <string name="title_activity_main">Inicia sesión</string>
+    <string name="title_activity_session">Tu cuenta</string>
+    <string name="verifique_conexion">Verifique conexión de internet</string>
+    <string name="error_ocurrido">Se produjo un problema al conectarse con el servidor. Por favor intente de nuevo</string>
+    <string name="error_ocurrido_app">Ocurrión un error, por favor intente de nuevo</string>
+    <string name="error_email_password">Email o contraseña incorrecta</string>
+    <string name="no_exist">No tiene notificaciones registrada!</string>
+    <!-- <string name="error_ocurrido">Ocurrión un error, por favor intente de nuevo</string> -->
+
+
+    <!-- Custom Login Remodificar -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="sign_in">Entrar</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Cargando&#8230;</string>
+    <string name="error_invalid_email">La dirección de correo electronico es invalido</string>
+    <string name="error_invalid_password">Contraseña muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_incorrect_phone">Telefono es invalido</string>
+    <string name="error_field_required">El campo se requiere</string>
+    <string name="new_ikut">¿Nuevo en Ikut?</string>
+    <string name="creating_account">Crear mi cuenta</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="example">Ikut es un sistema de notificaciones, que pretende ayudar a una comunidad en la comunicación entre usuarios de forma 
+		rápida y segura por medio notificaciones cortas enviadas a dispositivo móvil inteligente Android.</string>
+ 	<string name="example2">Google Cloud Messaging (GCM) para Android es un servicio gratuito que nos permite enviar información desde nuestro servidor a un dispositivo Android mediante una notificación rapida y corta.</string>
+    <string name="example3">Google Cloud Messaging, Servidor, Dispositivo Android</string>
+ 	
+    <!-- Custom Register -->
+    <string name="nav_bar_register">Regístrate</string>
+    <string name="nav_bar_messenger_send">Crear notificación</string>
+    <string name="you_phone">Telefono - Opcional</string>
+    <string name="nav_bar_main">Inicio</string>
+    <string name="nav_bar_messenger">Crear notificación</string>
+    <string name="nav_bar_setting">Crear notificación</string>
+    <string name="aceptar_termino">Acepto los términos de empleo</string>
+    <string name="register_user">Registrar en Ikut</string>
+    <string name="old_ikut">¿Ya eres usuario Ikut?</string>
+    <string name="you_name">Tu nombre</string>
+    <string name="you_email">Tu email</string>
+    <string name="you_password">Contraseña</string>
+    <string name="crear">Crear cuenta</string>
+    <string name="you_password_confirmar">Confirma tu contraseña</string>
+
+    <!-- Item Conuter -->
+    <string name="clear"></string>
+    <string name="delete">Eliminar</string>
+
+    <!-- Inicio -->
+    <string name="titulo_user">Roger</string>
+    <string name="status_user">Estado</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">Ikut</string>
+
+    <!-- Register -->
+    <string name="error_invalid_name">Solo letras</string>
+    <string name="error_invalid_name_short">Nombre muy corto</string>
+    <string name="error_invalid_pasword_dont_match">Contraseñas no coinciden</string>
+    <string name="register_progress_signing_in">Registrando&#8230;</string>
+    <string name="title_activity_activity_register">ActivityRegister</string>
+    <string name="title_activity_activity_messenger">ActivityMessenger</string>
+    <string name="error_invalid_user_exist">El email ya esta registrado</string>
+
+    <!-- Send Menssange -->
+    <string name="email_user">Email User</string>
+    <string name="asunto_user">Asunto</string>
+    <string name="contenido_user">Contenido</string>
+    <string name="user_de">De</string>
+    <string name="send">Enviar notificacón</string>
+    <string name="error_asunto_invalid_short">Asunto muy corto</string>
+    <string name="error_contenido_invalid_shot">Contenido muy corto</string>
+    <string name="error_asunto_invalid">El campo se requiere</string>
+    <string name="error_contenido_invalid">El campo se requiere</string>
+
+    <!-- Setting -->
+    <string name="pref_title_display_name">Tu nombre</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_account">Tu cuenta</string>
+    <string name="title_activity_register">Registrar</string>
+
+    <!-- Account -->
+    <string name="label">Ikut</string>
+    <string name="download">Descargar mensajes</string>
+
+    <!-- Create new account -->
+    <string name="create_new_account">Crear nueva cuenta</string>
+    <string name="warning_account_already_exists">Esta cuenta existen en el dispositivo</string>
+    <string name="add_new_account_done">Nueva cuenta se añadio correctamente</string>
+    <string name="error_creating_account">Error al crear la cuenta</string>
+
+    <!-- Account manager -->
+    <string name="account_type">com.ikut</string>
+
+    <!-- Setting -->
+    <string name="password_change">Cambiar contraseña</string>
+    <string name="btn_change_pass">Guardar</string>
+    <string name="phone_change">Cambiar telefono</string>
+    <string name="phone_text">Telefono</string>
+    <string name="old_password">Contraseña actual</string>
+    <string name="conectando">Conectando con el servidor&#8230;</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_dialog_close">Cerrar sessíon eliminará tus datos de Ikut de este dispositivo.¿Quieres cerrar sessión?</string>
+    <string name="close_session">Cerrar sessión</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="pref_user_phone">Telefono</string>
+    <string name="pref_user_phone_summary">Telefono</string>
+    <string name="pref_user_profile">Datos de Usuario</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_acerca_de">Acerca De</string>
+    <string name="pref_version">Versión de la aplicación</string>
+    <string name="pref_develop">Desarrollador</string>
+    <string name="pref_colaborador">Colaborador</string>
+    <string name="pref_dispositivo">Dispositivo</string>
+    <string name="olvidaste_pass">¿Olvidaste tu contraseña?</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_notifications">Notificación</string>
+    <string name="pref_title_new_message_notifications">Nueva notificación</string>
+    <string name="pref_title_ringtone">Tono</string>
+    <string name="pref_ringtone_silent">Silencio</string>
+    <string name="pref_title_vibrate">Vibrar</string>
+
+    <!-- Termino y Servicio -->
+    <string name="termino1">Términos y Condiciones de uso para Ikut</string>
+    <string name="termino2">		Los presentes Términos y Condiciones regulan: El acceso y utilización de la aplicación Ikut el cual ha sido 
+		desarrollado y son propiedad de Roger Patiño; a través de los cuales el Usuario Suscrito podrá 
+		establecer una comunicación con otros Usuarios Suscritos a la aplicación Ikut por medio de notificaciones 
+		enviadas a dispositivo móvil inteligente Android que posea el Usuario Suscrito.         </string>
+    <string name="termino3">Definiciones:</string>
+    <string name="termino4">		1) Ikut: Ikut es un sistema de notificaciones, que pretende ayudar en la comunicación entre usuarios de forma 
+		rápida y segura por medio notificaciones enviadas a dispositivo móvil inteligente Android. Ikut posee un 
+		Sistema de Encriptacion para todos y cada uno de los datos personales del Usuario Suscrito, por este
+		 motivo la privacidad de el o los Usuarios Suscritos esta plenamente garantizada.         </string>
+    <string name="termino5">        2) Usuario Suscrito: Toda persona que tenga un dispositivo móvil inteligente Android y que 
+        previamente haya aceptado los Términos y Condiciones de Ikut.</string>
+    <string name="termino6">Uso de Ikut:</string>
+    <string name="termino7">Restricciones de edad. Para poder utilizar Ikut, el Usuario Suscrito debe tener como 
+         	mínimo 18 años. Si tiene menos de 18 años, necesitará permiso de sus padres o de su tutor legal para utilizar
+          	Ikut y para aceptar las Condiciones. No debe acceder a Ikut si, por motivos legales o por otras razones, 
+          	se  ha privado del derecho a recibir o utilizar el Servicio o cualquier Contenido en virtud de la legislación 
+          	del país en el que resida o desde el que accedas a Ikut o lo utilice. </string>
+    <string name="termino8">Requisitos de uso básicos. Para utilizar Ikut , el Usuario Suscrito necesita un 
+         	Dispositivo que cumpla los requisitos de compatibilidad y del sistema del Contenido correspondiente 
+         	(que pueden cambiar ocasionalmente), acceso a Internet y un software compatible. Estos factores pueden 
+         	influir en el rendimiento del Servicio y en la posibilidad de utilizarlo. Asumes la responsabilidad del 
+         	cumplimiento de estos requisitos del sistema.</string>
+    <string name="termino9">			Información sobre el Usuario Suscrito. Para poder acceder a Ikut, es posible que tengas que proporcionar 
+			ciertos datos personales, como tu nombre, correo y telefono. La información que Ikut recopila sera 
+			encriptado. El desarrollador Roger Patiño y la aplicación Ikut se 
+			comprometen a no vender ni distribuir los datos del Usuario Suscrito.         </string>
+    <string name="termino10">Acceso no autorizado a las cuentas. Debes proteger tu información de usuario y no compartirla con nadie.</string>
+    <string name="termino11">Cuentas inhabilitadas. Si Ikut inhabilita el acceso a tu cuenta de acuerdo con las 
+         	Condiciones (por ejemplo, si infringes las Condiciones), es posible que se te impida acceder a Ikut, a 
+         	la información de tu cuenta o a los archivos u otros Contenidos almacenados en tu cuenta. </string>
+    <string name="termino12">Ikut puede acceder a los siguientes permiso.</string>
+    <string name="termino13">- Añadir cuentas.</string>
+    <string name="termino14">- Buscar cuentas en el dispositivo.</string>
+    <string name="termino15">- Crear cuenta y establecer contraseñas.</string>
+    <string name="termino16">- Acceso completo a la red.</string>
+    <string name="termino17">- Ver conexiones de red.</string>
+    <string name="termino18">- Ejecutar al inicio.</string>
+    <string name="title_activity_register_account">RegisterAccount</string>
+    <string name="title_activity_container_fragment">ContainerFragment</string>
+    <string name="title_activity_tour">Tour</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Sección 3</string>
+
+    <!-- Detail -->
+    <string name="delete">Elimiar</string>
+    <string name="reenviar">Reenviar</string>
+    
+    <!-- Forget Password -->
+    <string name="code_verification">Codigo de verificación</string>
+    <string name="code">Codigo</string>
+    <string name="code_btn">Verificar</string>
+    
+    
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- User -->
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+        
+        <Preference 
+            android:key="prefPassword"
+        	android:title="Cambiar Contraseña" />
+        
+        <Preference 
+        	android:title="Cambiar Telefono" 
+            android:key="prefPhone"/>
+                        
+        <Preference 
+            android:key="prefFecha"
+            android:title="Fecha de creacion" 
+            android:selectable="false"
+            android:enabled="false"/>     
+                                           
+    </PreferenceCategory>
+    
+    <!-- App -->
+    <PreferenceCategory android:title="@string/pref_notifications">
+        
+	    <CheckBoxPreference
+	        android:defaultValue="false"
+	        android:key="pref_Notifications_new_message"
+	        android:title="@string/pref_title_new_message_notifications" />
+	
+	    <CheckBoxPreference
+	        android:defaultValue="false"
+	        android:key="pref_Notifications_new_message_vibrate"
+	        android:title="@string/pref_title_vibrate" />        
+        
+    </PreferenceCategory>            
+	
+    <!-- Info -->
+    <PreferenceCategory android:title="@string/pref_acerca_de">
+       
+        <Preference
+            android:key="prefVersion" 
+            android:title="@string/pref_version"
+            android:selectable="false"
+            android:enabled="false"/>
+        
+        <Preference 
+            android:key="prefDevelop"
+            android:title="@string/pref_develop" 
+            android:summary="Roger Patiño"
+            android:selectable="false"
+            android:enabled="false"/>   
+                    
+        <Preference 
+            android:key="prefColaborador"
+            android:title="@string/pref_colaborador" 
+            android:summary="Marcos Luna"
+            android:selectable="false"
+            android:enabled="false"/>  
+                    
+        <Preference
+            android:key="prefDispositivo" 
+            android:title="@string/pref_dispositivo" 
+            android:selectable="false"
+            android:enabled="false"/>     
+                    
+    </PreferenceCategory>  
+      
+</PreferenceScreen>

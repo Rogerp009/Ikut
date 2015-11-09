@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="5dp"
+	    android:orientation="vertical" >
+
+		<ImageView
+		    android:contentDescription="@string/app_name"
+		    android:id="@+id/img_list"
+		    android:layout_width="60dp"
+		    android:layout_height="60dp"
+		    android:src="@drawable/flat_ile" />	    
+	</LinearLayout>        
+    
+	<LinearLayout
+	    android:layout_width="188dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="12dp"
+	    android:orientation="vertical" >
+	    
+		<TextView
+		    android:id="@+id/text_list_messege"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAllCaps="false"
+			android:maxLines="1"
+			android:ellipsize="end"			
+			android:scrollHorizontally="true"		    
+		    android:textSize="@dimen/subhead2"
+		    android:textStyle="bold" />
+		
+		<TextView
+		    android:id="@+id/subtitle_list_messenge"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:maxLines="1"
+			android:ellipsize="end"
+			android:scrollHorizontally="true"	  		    
+		    android:textAllCaps="false"
+		    android:textSize="@dimen/body1"
+		    android:textStyle="normal" />
+			    
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/text_list_fecha"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+			android:maxLines="1"
+			android:ellipsize="end"
+			android:scrollHorizontally="true"	  			    
+		    android:textSize="12sp"
+		    android:textStyle="normal" />	
+		      
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_marginLeft="50dp"
+		  	android:layout_marginTop="25dp"		    
+		    android:drawableRight="@drawable/check"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	
+</LinearLayout>
